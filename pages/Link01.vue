@@ -1,17 +1,15 @@
 <template>
   <div>
-    <div class="">
-      <img src="~/assets/mc.png" alt="">
-    </div>
+    <h1>事業内容</h1>
   </div>
 </template>
 
 <script>
 export default {
 
-}
+};
 </script>
 
-<style>
+<style lang="scss" scoped>
 
 </style>
