@@ -1,8 +1,10 @@
 <template>
   <div>
-    <header>
-      <router-link to="/">Top Page</router-link>
-      <HeaderNav />
+    <header class="fixed">
+      <div class="grid lg:grid-cols-2 ">
+        <div class="text-xl lg:text-3xl ml-8"><router-link to="/">Top Page</router-link></div>
+        <HeaderNav />
+      </div>
     </header>
   </div>
 </template>
@@ -19,7 +21,11 @@ export default {
 <style lang="scss" scoped>
 header{
   color: #fff;
-  padding: 20px;
-  background-color: #022444;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  background-color:rgba( #000000, 0);
+  width: 100%;
+  
 }
+
 </style>

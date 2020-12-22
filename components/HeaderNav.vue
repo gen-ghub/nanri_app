@@ -1,7 +1,7 @@
 <template>
-  <div>
+
     <nav>
-      <ul>
+      <ul class="lg:text-xl flex content-center mr-8 h-full">
         <li>
           <nuxt-link to="/Link01">事業内容</nuxt-link>
         </li>
@@ -13,7 +13,7 @@
         </li>
       </ul>
     </nav>
-  </div>
+
 </template>
 
 <script>
@@ -28,6 +28,7 @@ nav{
   ul {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     li {
       list-style-type: none;
       margin-left: 15px;
