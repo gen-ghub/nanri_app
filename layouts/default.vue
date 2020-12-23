@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <section>
     <Header />
     <main>
       <Nuxt />
     </main>
     <Footer />
-  </div>
+  </section>
 </template>
 
 <script>
