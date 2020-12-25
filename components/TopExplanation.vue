@@ -6,25 +6,23 @@
         </div>
       </section>
       <section class="summary-right bg-white">
-        <div class="flex flex-col mt-40 p-40">
-          <section>
-            <p class="pb-24 leading-loose ">
-              誰もが教育を受けられる場所、学校。<br />
-              いつの時代も、社会を成長させてきたエンジンだ。
+        <div class="flex flex-col mt-20 pl-56 py-20">
+          <section class="text-xl tracking-widest font-serif ">
+            <p class="pb-16 leading-loose ">
+              DEEBLUEは無くても良い会社です
             </p>
-            <p class="pb-24 leading-loose">
-              しかし、その立役者である先生にとって<br />
-              今ほど難しい時代はない。
+            <p class="pb-16 leading-loose">
+              生きてく上で特に必要ではありません<br />
+              何の真新しさもありません
             </p>
-            <p class="pb-24 leading-loose">
-              日々進化する技術、多様化する価値観。<br />
-              先生を縛りつける伝統的な体制や慣習。<br />
-              かつての「正解」は、もう通用しなくなっている。
+            <p class="pb-16 leading-loose">
+              体験を通して関わらせて頂いた日が<br />
+              その1日がいつもより少し充実し<br />
+              幸せだったと思ってもらいたい
             </p>
-            <p class="pb-24 leading-loose">
-              だからこそ、あえて言いたい。<br />
-              先生は、自由だ。先生には、可能性が溢れている。<br />
-              教え方にルールもない。一人一人に合ったやり方がある。
+            <p class="pb-16 leading-loose">
+              そんなお手伝いができたらという<br />
+              サービスを提供しています<br />
             </p>
           </section>
         </div>
