@@ -1,6 +1,6 @@
 <template>
-  <div class="slide">
-    <img src="~/assets/a.jpg" />
+  <div class="slide flex justify-center">
+    <img class="p-2" src="~/assets/a.jpg" />
   </div>
 
 </template>
@@ -14,14 +14,12 @@ export default {
 <style lang="scss" scoped>
 .slide {
   color: #fff;
-  height: 100vh;
-  width: 100vw;
   background-color: #022444;
   img {
     height: 99%;
-    width: 99%;
+    width: 99.8%;
     object-fit: cover;
-    padding: 10px;
+
   }
 }
 

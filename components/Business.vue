@@ -7,63 +7,59 @@
         </h2>
       </section>
       <section class="">
-        <div class="grid grid-cols-3">
+        <div class="grid grid-cols-4">
           <div class="flex flex-wrap content-center justify-center">
             <section>
-              <div class="itme rounded bg-gray-50 p-10 ml-16 shadow-2xl">
-                <div class="flex flex-wrap content-center justify-center">
+              <div class="itme rounded bg-gray-50 p-10 shadow-2xl">
+                <div class="flex flex-wrap content-center justify-center mb-8">
                   <img class="h-56 w-56 rounded" src="~/assets/bbq1.jpg" />
                 </div>
-                <div>
-                  <p class="mb-8">関東、関西でBBQ設備レンタルをしています。</p>
-                </div>
                 <div class="flex flex-wrap content-center justify-center">
-                  <a
-                class=" mr-5 bg-red-600 p-2 rounded text-white hover:bg-red-400"
-                href="http://bbqdeli.jp/"
-                >[関東]</a
-              >
-                  <a
-                class="bg-yellow-500 p-2 rounded text-white hover:bg-yellow-300"
-                href="http://www.bbq-ranger.com"
-                >[関西]</a
-              >
+                  <nuxt-link to="/Link01">
+                    <h1 class="border border-blue-900 p-2 rounded text-black hover:bg-blue-900 hover:text-white transition duration-700">BBQ設備</h1>
+                  </nuxt-link>
                 </div>
               </div>
             </section>
           </div>
           <div class="flex flex-wrap content-center justify-center">
             <section>
-              <div class="itme rounded bg-gray-50 p-10 ml-16 shadow-2xl">
-                <div class="flex flex-wrap content-center justify-center">
+              <div class="itme rounded bg-gray-50 p-10 shadow-2xl">
+                <div class="flex flex-wrap content-center justify-center mb-8">
                   <img class="h-56 w-56 rounded" src="~/assets/biru.jpg" />
                 </div>
-                <div>
-                  <p class="mb-8">野外でビールをお楽しみ頂いております。</p>
-                </div>
                 <div class="flex flex-wrap content-center justify-center">
-                  <a
-                    class="bg-yellow-600 p-2 rounded text-white hover:bg-yellow-400"
-                    href="https://beerdeli.jp/"
-                    >[ビールデリ]</a
-                  >
+                  <nuxt-link to="/Link01">
+                    <h1 class="border border-blue-900 p-2 rounded text-black hover:bg-blue-900 hover:text-white transition duration-700">ビールデリバリー</h1>
+                  </nuxt-link>
                 </div>
               </div>
             </section>
           </div>
           <div class="flex flex-wrap content-center justify-center">
             <section>
-              <div class="itme rounded bg-gray-50 p-10 mr-16 shadow-2xl">
-                <div class="flex flex-wrap content-center justify-center">
+              <div class="itme rounded bg-gray-50 p-10 shadow-2xl">
+                <div class="flex flex-wrap content-center justify-center mb-8">
                   <img class="h-56 w-56 rounded" src="~/assets/a.jpg" />
                 </div>
-                <div><p class="mb-8">ブライダルの余興を盛り上げます。</p></div>
                 <div class="flex flex-wrap content-center justify-center">
-                  <a
-                    class="bg-blue-600 p-2 rounded text-white hover:bg-blue-400"
-                    href="flashmob.biz"
-                    >[ゼロモブ]</a
-                  >
+                  <nuxt-link to="/Link01">
+                    <h1 class="border border-blue-900 p-2 rounded text-black hover:bg-blue-900 hover:text-white transition duration-700">ブライダル</h1>
+                  </nuxt-link>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="flex flex-wrap content-center justify-center">
+            <section>
+              <div class="itme rounded bg-gray-50 p-10 shadow-2xl">
+                <div class="flex flex-wrap content-center justify-center mb-8">
+                    <img class="h-56 w-56 rounded" src="~/assets/camp.jpg" />
+                </div>
+                <div class="flex flex-wrap content-center justify-center">
+                  <nuxt-link to="/Link01">
+                    <h1 class="border border-blue-900 p-2 rounded text-black hover:bg-blue-900 hover:text-white transition duration-700">キャンプ場管理</h1>
+                  </nuxt-link>
                 </div>
               </div>
             </section>
