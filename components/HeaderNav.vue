@@ -1,5 +1,4 @@
 <template>
-
     <nav>
       <ul class="lg:text-xl flex content-center mr-8 h-full">
         <li>
@@ -13,7 +12,6 @@
         </li>
       </ul>
     </nav>
-
 </template>
 
 <script>

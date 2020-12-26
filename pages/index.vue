@@ -1,6 +1,6 @@
 <template>
   <section>
-    <Slide />
+    <PhotoImage />
     <TopExplanation />
     <Business />
     <!-- <Business2 /> -->
@@ -13,23 +13,24 @@
         </nuxt-link>
     </section>
   </section>
-
 </template>
 
 <script>
-import Slide from '@/components/Slide.vue'
+import PhotoImage from '@/components/PhotoImage.vue'
 import TopExplanation from '@/components/TopExplanation.vue'
 import Business from '../components/Business.vue'
 import Business2 from '../components/Business2.vue'
 
+
 export default {
   components: {
-    Slide,
+    PhotoImage,
     TopExplanation,
     Business,
     Business2,
   },
 }
+
 </script>
 
 <style lang="scss" scoped>

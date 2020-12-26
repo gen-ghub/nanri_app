@@ -1,6 +1,11 @@
 <template>
   <div>
-    <h1>事業内容</h1>
+    <section class="business">
+      <img class="pt-2" src="~/assets/a.jpg" />
+    </section>
+    <section class="h-64 bg-gray-50">
+      <h1>事業内容</h1>
+    </section>
   </div>
 </template>
 
@@ -11,5 +16,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.business{
+  background-color: #022444;
+  height: 120vh;
+  img{
+    height: 70vh;
+    width: 100vw;
+    object-fit: cover;
+  }
+}
 </style>
