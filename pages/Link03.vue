@@ -1,6 +1,6 @@
 <template>
-  <div class="h-screen">
-    <div class="inquiry h-52">
+  <div class="h-screen inquiry">
+    <div class="h-52">
       <h1 class="py-8">お問い合わせページ</h1>
     </div>
     <h1>お問い合わせ</h1>
@@ -15,6 +15,6 @@ export default {
 
 <style lang="scss" scoped>
 .inquiry{
-  background-color: rgba( #01003883, 0.4);
+  background-color: rgba( #2bff0083, 0.2);
 }
 </style>

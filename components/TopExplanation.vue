@@ -2,7 +2,7 @@
   <section class="summary grid lg:grid-cols-2 h-full">
       <section class="summary-left ">
         <div class="h-full flex flex-wrap content-center justify-center">
-          <h1 class="text-6xl">会社ロゴ</h1>
+          <img class="" src="~/assets/logo.png" />
         </div>
       </section>
       <section class="summary-right bg-white">
